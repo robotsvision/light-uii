@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "llibs.h": "c",
+        "windows.h": "c"
+    }
+}

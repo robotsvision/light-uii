@@ -1,5 +1,5 @@
 #include <light.h>
 
-int main(void) {
-    
+LMAIN(LIGHT_ARGC, LIGHT_ARGV) {
+    return 0;
 }

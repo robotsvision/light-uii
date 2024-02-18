@@ -19,11 +19,11 @@ light --version
 Create project:
 
 ``` bash
-light new c++
+light new c++ project
 ```
 
 ``` bash
-light new lena
+light new lena project
 ```
 
 Update:
@@ -35,5 +35,5 @@ light --update
 Create Lena language module:
 
 ``` bash
-light new module "path/to/files"
+light new lena module "path/to/files"
 ```
