@@ -1,21 +1,25 @@
-#ifndef __LIGHT_MAIN_H__
-#define __LIGHT_MAIN_H__
+#ifndef LIGHT_UNIFIED_INTERACTION_INTARFACE_H__
+#define LIGHT_UNIFIED_INTERACTION_INTARFACE_H__
 
 /**************************************************************************//**
  * @file     light.h
- * @brief    Project L - Light unified interaction interface / main library
+ * @brief    Project L - Light unified interaction interface. Main library.
  * @version  V0.0.1
- * @date     17. Feb 2024
+ * @date     14. Jan 2024
+ * @author   Matvey Rybalkin
  ******************************************************************************/
 
 /* Check C standard */
 #if __STDC_VERSION__ >= 201112L
 
-/* Llibs framework */
+/* Include llibs framework (external) */
 #include <llibs.h>
+
+/* Include Light core libraries */
+#include "core/core.h"
 
 #else /* ERROR (__STDC_VERSION__ >= 201112L) */
 #error [light.h]: Requires at least version C 2011 (__STDC_VERSION__ >= 201112L)
-#endif
+#endif 
 
-#endif // __LIGHT_MAIN_H__
+#endif // LIGHT_UNIFIED_INTERACTION_INTARFACE_H__

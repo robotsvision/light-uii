@@ -1,5 +1,5 @@
 #include <light.h>
 
-LMAIN(LIGHT_ARGC, LIGHT_ARGV) {
-    return 0;
+lm lmain(lu32 argc, lc* argv[]) {
+    lexit(L_EXIT_SUCCESS);
 }
