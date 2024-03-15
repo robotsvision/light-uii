@@ -8,16 +8,16 @@ if (args.length > 0) {
 	const flagsPath = path.join(__dirname, 'assets', 'out.json');
 	fs.readFile(flagsPath, (err, data) => {
 		if (err) {
-			console.error('[lena-i->scripts]: Error reading flags file', err);
+			console.error('[light-uii->scripts]: Error reading flags file', err);
 			return;
 		}
 		const flags = JSON.parse(data);
 		if (os in flags) {
 			console.log(`${flags[os].join(' ')}`);
 		} else {
-			console.log(`[lena-i->scripts]: No flags defined for OS: ${os}`);
+			console.log(`[light-uii->scripts]: No flags defined for OS: ${os}`);
 		}
 	});
 } else {
-  	console.log('[lena-i->scripts]: Usage: node flags.js <os>');
+  	console.log('[light-uii->scripts]: Usage: node flags.js <os>');
 }

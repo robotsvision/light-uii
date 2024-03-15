@@ -1,8 +1,8 @@
 {
-    "aix":      ["bin/lena-i"],
-    "darwin":   ["bin/lena-i"],
-    "linux":    ["bin/lena-i"],
-    "openbsd":  ["bin/lena-i"],
-    "sunos":    ["bin/lena-i"],
-    "win32":    ["bin/lena-i.exe"]
+    "aix":      ["bin/light"],
+    "darwin":   ["bin/light"],
+    "linux":    ["bin/light"],
+    "openbsd":  ["bin/light"],
+    "sunos":    ["bin/light"],
+    "win32":    ["bin/light.exe"]
 }
