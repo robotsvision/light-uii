@@ -1,0 +1,8 @@
+{
+    "aix":      ["bin/light"],
+    "darwin":   ["bin/light"],
+    "linux":    ["bin/light"],
+    "openbsd":  ["bin/light"],
+    "sunos":    ["bin/light"],
+    "win32":    ["bin/light.exe"]
+}
