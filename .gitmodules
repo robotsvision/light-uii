@@ -1,3 +1,3 @@
-[submodule "light/extern/llibs"]
-	path = light/extern/llibs
+[submodule "light/external/llibs"]
+	path = light/external/llibs
 	url = https://github.com/robotsvision/llibs
