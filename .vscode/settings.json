@@ -2,6 +2,13 @@
     "files.associations": {
         "llibs.h": "c",
         "windows.h": "c",
-        "light.h": "c"
+        "light.h": "c",
+        "args.h": "c",
+        "interactive.h": "c",
+        "stat.h": "c",
+        "argsno.h": "c",
+        "stdlib.h": "c",
+        "errors.h": "c",
+        "core.h": "c"
     }
 }
