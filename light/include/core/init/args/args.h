@@ -22,22 +22,21 @@ lm light_args(lu32 argc, lc* argv[]) {
         range(j, 0, KEYWORD_LENGHT) {
             if (lscmp(argv[i], light_args_kw_list[j])) {
                 token_list[token_index] = j;
+                ++token_index;
                 break;
             } else {
                 token_list[token_index] = LIGHT_ARGS_TOKEN_UNDEFINED;
-                if (token_index == 0) {
-                    light_error(X("Invalid args sequence!"));
-                    free(token_list);
-                    bye_light();
-                    return L_EXIT_FAILURE;
-                }
             }
-            ++token_index;
+            
+        }
+        if (token_list[token_index] == LIGHT_ARGS_TOKEN_UNDEFINED) {
+            light_error_invalid_args(i, argv[i]);
+            free(token_list);
+            bye_light();
+            return L_EXIT_FAILURE;
         }
     }
-    range(i, 0, token_index) {
-        printf("%d", token_list[i]);
-    }
+
     free(token_list);
     bye_light();
     return L_EXIT_SUCCESS;

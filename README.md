@@ -1,6 +1,6 @@
 # Light unified interaction interface
 
-![Light logo](images/light_logo_github.png)
+![Light logo](.github/images/light_logo_github.png)
 
 ## Main information
 
