@@ -31,9 +31,3 @@ Update:
 ``` bash
 light --update
 ```
-
-Create Lena language module:
-
-``` bash
-light new lena module "path/to/files"
-```
