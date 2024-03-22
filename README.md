@@ -26,6 +26,16 @@ light new c++ project
 light new lena project
 ```
 
+Or for Vertex 4 Polaris:
+
+``` bash
+light new vertex-4 project
+```
+
+``` bash
+light new vertex-4-polaris project
+```
+
 Update:
 
 ``` bash
