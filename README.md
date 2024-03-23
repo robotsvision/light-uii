@@ -28,9 +28,13 @@ light new lena project
 
 Or for Vertex 4 Polaris:
 
+Only for Vertex support:
+
 ``` bash
 light new vertex-4 project
 ```
+
+Or with Polaris ML libraries:
 
 ``` bash
 light new vertex-4-polaris project
